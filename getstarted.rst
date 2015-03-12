@@ -41,9 +41,9 @@ Setting up a NIO Project
 
 If you already have an existing project configuration, you can skip this section.
 
-To execute this demo, you'll need `git` (a distributed version control tool) and an account with `github <http://github.com>`.
+To execute this demo, you'll need `git` (a distributed version control tool) and an account with `github <http://github.com>`_.
 
-To help you get started, we provide an open source `project template <https://github.com/nio-blocks/project_template>` which reflects the standard directory structure of a nio project. Let's begin by cloning down the project template repository into the target directory of your choice:
+To help you get started, we provide an open source `project template <https://github.com/nio-blocks/project_template>`_ which reflects the standard directory structure of a nio project. Let's begin by cloning down the project template repository into the target directory of your choice:
 
 .. code-block:: bash
 
@@ -53,7 +53,7 @@ To help you get started, we provide an open source `project template <https://gi
     $ ls
     README.md	blocks  etc     extras  nio.conf         nio.env
     
-The first thing we're going to need is some blocks. We provide a selection of `open source blocks <https://github.com/nio-blocks>` for your convenience, but, remember, nio is designed to make it easy for you to develop custom blocks; more on this later. For now, let's just get a group of blocks that we've categorized as *util*. Since our nio project is a git repository, we're goingn to take advantage of that and add blocks as `submodules <http://git-scm.com/docs/git-submodule>`_:
+The first thing we're going to need is some blocks. We provide a selection of `open source blocks <https://github.com/nio-blocks>`_ for your convenience, but, remember, nio is designed to make it easy for you to develop custom blocks; more on this later. For now, let's just get a group of blocks that we've categorized as *util*. Since our nio project is a git repository, we're goingn to take advantage of that and add blocks as `submodules <http://git-scm.com/docs/git-submodule>`_:
 
 .. code-block:: bash
 
